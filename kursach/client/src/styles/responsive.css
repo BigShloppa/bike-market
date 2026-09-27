@@ -1,0 +1,15 @@
+@media (max-width: 720px) {
+  .header__nav { gap: 10px; font-size: 14px; }
+  .header__logo { font-size: 18px; }
+  .searchbar { flex-direction: column; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  .bike-page__grid { grid-template-columns: 1fr; }
+  .container { padding: 16px 12px; }
+  .form { padding: 16px; }
+  .bike-page__price { font-size: 22px; }
+}
+
+@media (max-width: 420px) {
+  .grid { grid-template-columns: 1fr; }
+  .toast { right: 10px; left: 10px; bottom: 10px; }
+}
